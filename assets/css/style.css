@@ -1,6 +1,7 @@
 .slider-image-size{
     height: 250px;
     width: 250px;
+    border-radius: 30px;
 }
 
 .swiper-container {
@@ -61,4 +62,14 @@
     100% {
         background-position: 100% 0;
     }
+}
+
+.fixed-footer {
+    padding-top: 15px;
+    background-color: white;
+    z-index: 2;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
 }
