@@ -74,3 +74,27 @@
     bottom: 0;
     width: 100%;
 }
+
+.whatsapp-section{
+    z-index: 3;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.whatsapp-image{
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    .whatsapp-image{
+        height: 50px;
+    }
+
+    .whatsapp-section{
+        z-index: 3;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+    }
+}
