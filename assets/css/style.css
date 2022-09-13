@@ -1,5 +1,5 @@
 .slider-image-size{
-    border: 2px solid black;
+    border: 1px solid black;
     height: 256px;
     width: 350px;
     border-radius: 30px;
@@ -83,12 +83,21 @@
 }
 
 .whatsapp-image{
-    height: 100px;
+    height: 70px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0rem 0rem;
+}
+
+.nav-link {
+    padding: 0.5rem 5px;
 }
 
 @media (max-width: 600px) {
     .whatsapp-image{
-        height: 50px;
+        height: 35px;
     }
 
     .whatsapp-section{
@@ -96,5 +105,12 @@
         position: fixed;
         bottom: 5px;
         right: 5px;
+    }
+
+    .slider-image-size{
+        border: 1px solid black;
+        height: 100px;
+        width: 137px;
+        border-radius: 10px;
     }
 }
