@@ -1,4 +1,5 @@
 .slider-image-size{
+    border: 2px solid black;
     height: 256px;
     width: 350px;
     border-radius: 30px;
@@ -72,8 +73,4 @@
     height: 100px;
     bottom: 0;
     width: 100%;
-}
-
-.card{
-    height: 120px;
 }
