@@ -88,16 +88,21 @@
 
 .card-body {
     flex: 1 1 auto;
-    padding: 0rem 0rem;
+    padding: 0 0;
 }
 
 .nav-link {
     padding: 0.5rem 5px;
 }
 
+.fa-brands, .fa-regular{
+    font-size: 25px;
+    color: black;
+}
+
 @media (max-width: 600px) {
     .whatsapp-image{
-        height: 35px;
+        height: 40px;
     }
 
     .whatsapp-section{
@@ -112,5 +117,10 @@
         height: 100px;
         width: 137px;
         border-radius: 10px;
+    }
+
+    .fa-brands, .fa-regular{
+        font-size: 20px;
+        color: black;
     }
 }
